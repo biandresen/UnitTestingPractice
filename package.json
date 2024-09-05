@@ -1,0 +1,15 @@
+{
+  "name": "unittestingpractice",
+  "version": "1.0.0",
+  "description": "Practicing unit testing through The Odin Project assigment",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}
