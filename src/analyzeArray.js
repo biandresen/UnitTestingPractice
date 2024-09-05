@@ -7,10 +7,7 @@ export function analyzeArray(array) {
   arrayInfo.average =
     array.reduce((sum, current) => sum + current, 0) / array.length;
 
-  arrayInfo.min = array[0];
-  for (let i = 0; i < array.length - 2; i++) {
-    if (array[i + 1] < arrayInfo.min) arrayInfo.min = array[i + 1];
-  }
+  arrayInfo.min = Math.min(...array);
 
   arrayInfo.max = array[0];
   for (let i = 0; i < array.length - 2; i++) {
